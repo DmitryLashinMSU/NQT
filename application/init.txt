@@ -1,0 +1,23 @@
+# Параметры симуляции
+space_cell = 0.1
+time_step = 0.01
+particle_radius = 0.5
+N_compact = 3
+size_compact_limit = 2.5
+N_particles = 5
+box_size = 8.0
+partition_position = 0.0
+min_speed = 0.5
+max_speed = 5
+
+# Пояснение
+space_cell - минимальный пространственный масштаб
+time_step - шаг по времени
+particle_radius - радиус частиц
+N_compact - количество компактных измерений
+size_compact_limit - максимальный размер компактного измерения
+N_particles - число частиц в каждой половине
+box_size - размер области
+partition_position - положение перегородки
+min_speed - минимальная начальная скорость частиц
+max_speed - максимальная начальная скорость частиц
